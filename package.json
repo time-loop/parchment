@@ -1,6 +1,6 @@
 {
-  "name": "parchment",
-  "version": "3.0.0-alpha.1",
+  "name": "@time-loop/parchment",
+  "version": "3.0.0-alpha.3",
   "description": "A document model for rich text editors",
   "author": "Jason Chen <jhchen7@gmail.com>",
   "homepage": "http://quilljs.com/docs/parchment",
@@ -12,6 +12,9 @@
     "dist",
     "src"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "devDependencies": {
     "@microsoft/api-extractor": "^7.36.3",
     "@types/node": "^18.15.11",
